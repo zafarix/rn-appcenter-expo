@@ -9,7 +9,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  NSURL \*jsCodeLocation;
+  NSURL *jsCodeLocation;
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
