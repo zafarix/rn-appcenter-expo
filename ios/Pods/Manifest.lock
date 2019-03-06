@@ -2,6 +2,18 @@ PODS:
   - Amplitude-iOS (3.14.1)
   - Analytics (3.6.10)
   - AppAuth (0.95.0)
+  - AppCenter (1.13.2):
+    - AppCenter/Analytics (= 1.13.2)
+    - AppCenter/Crashes (= 1.13.2)
+  - AppCenter/Analytics (1.13.2):
+    - AppCenter/Core
+  - AppCenter/Core (1.13.2)
+  - AppCenter/Crashes (1.13.2):
+    - AppCenter/Core
+  - AppCenter/Push (1.13.2):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (1.12.2):
+    - AppCenter/Core (= 1.13.2)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
@@ -248,6 +260,11 @@ PODS:
   - yoga (0.57.1.React)
 
 DEPENDENCIES:
+  - AppCenter (~> 1.13.2)
+  - AppCenter/Analytics (~> 1.13.2)
+  - AppCenter/Crashes (~> 1.13.2)
+  - AppCenter/Push (~> 1.13.2)
+  - AppCenterReactNativeShared (~> 1.12.2)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - EXAdsAdMob (from `../node_modules/expo-ads-admob/ios`)
   - EXAppAuth (from `../node_modules/expo-app-auth/ios`)
@@ -399,6 +416,8 @@ SPEC CHECKSUMS:
   Amplitude-iOS: 4a3c8807b2ea5369dc11e87e23825bff01e5a922
   Analytics: 63744ad4afa65c3bcdcdb7a94b62515bde5b3900
   AppAuth: 137f6bb6fc9dfbaf2cf9f6fcff1d336ff0163bc6
+  AppCenter: bce7fe1098e8e8aeb70aaae1898600534069f549
+  AppCenterReactNativeShared: 6c0750b874f3242c47cb64083e23b835975c6aa2
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   Branch: 0d98d22745a9b68bcb4fa6dc1c6a92b64d4fdd7b
@@ -460,6 +479,6 @@ SPEC CHECKSUMS:
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 0d99e2518c5e8bc7f1bfe4539ae4dce449ce22b3
+PODFILE CHECKSUM: 6e32cf9910a7071d1d081f021e36438444405c5a
 
 COCOAPODS: 1.4.0

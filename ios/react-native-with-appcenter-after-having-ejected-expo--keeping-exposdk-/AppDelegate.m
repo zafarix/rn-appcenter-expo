@@ -9,6 +9,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  NSURL \*jsCodeLocation;` line to the `AppDelgate.m`
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

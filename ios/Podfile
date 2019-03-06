@@ -2,6 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
 target 'react-native-with-appcenter-after-having-ejected-expo--keeping-exposdk-' do
+  pod 'AppCenter', '~> 1.13.2'
+  pod 'AppCenter/Crashes', '~> 1.13.2'
+  pod 'AppCenter/Push', '~> 1.13.2'
+  pod 'AppCenter/Analytics', '~> 1.13.2'
+  pod 'AppCenterReactNativeShared', '~> 1.12.2'
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
     :tag => "ios/2.10.2",
@@ -124,7 +129,7 @@ target 'react-native-with-appcenter-after-having-ejected-expo--keeping-exposdk-'
       target.native_target.build_configurations.each do |config|
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'EX_DETACHED=1'
-        
+
         # needed for GoogleMaps 2.x
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= []
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '${PODS_ROOT}/GoogleMaps/Base/Frameworks'
