@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/robertovazquezgonzalez/Documents/code-exercises/rn-appcenter-expo/android/app/build/intermediates/incremental/mergeDevKernelDebugResources/merged.dir/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/robertovazquezgonzalez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c4a7b0e05cc7cdb7c2e03cbe59d95cbe/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
