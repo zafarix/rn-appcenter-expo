@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
 target 'react-native-with-appcenter-after-having-ejected-expo--keeping-exposdk-' do
-  pod 'AppCenter', '~> 1.13.2'
+  
   pod 'AppCenter/Crashes', '~> 1.13.2'
   pod 'AppCenter/Push', '~> 1.13.2'
   pod 'AppCenter/Analytics', '~> 1.13.2'

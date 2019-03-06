@@ -2,9 +2,6 @@ PODS:
   - Amplitude-iOS (3.14.1)
   - Analytics (3.6.10)
   - AppAuth (0.95.0)
-  - AppCenter (1.13.2):
-    - AppCenter/Analytics (= 1.13.2)
-    - AppCenter/Crashes (= 1.13.2)
   - AppCenter/Analytics (1.13.2):
     - AppCenter/Core
   - AppCenter/Core (1.13.2)
@@ -260,7 +257,6 @@ PODS:
   - yoga (0.57.1.React)
 
 DEPENDENCIES:
-  - AppCenter (~> 1.13.2)
   - AppCenter/Analytics (~> 1.13.2)
   - AppCenter/Crashes (~> 1.13.2)
   - AppCenter/Push (~> 1.13.2)
@@ -479,6 +475,6 @@ SPEC CHECKSUMS:
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 6e32cf9910a7071d1d081f021e36438444405c5a
+PODFILE CHECKSUM: 9a3ffcf25bd06a469723ed6e98ac49fec4840775
 
 COCOAPODS: 1.4.0
